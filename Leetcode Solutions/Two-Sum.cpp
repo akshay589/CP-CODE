@@ -1,6 +1,5 @@
 // https://leetcode.com/problems/two-sum/
 
-//added dev_mukul branch
 
 class Solution {
 public:
@@ -11,7 +10,6 @@ public:
             if(mp1.find(target-nums[i])!=mp1.end()){
                 vi.push_back(i);
                 vi.push_back(mp1[target-nums[i]]);
-                // added dev1 branch
                 break;
             }
             mp1[nums[i]]=i;
