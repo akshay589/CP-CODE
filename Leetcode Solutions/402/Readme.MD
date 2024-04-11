@@ -1,0 +1,1 @@
+Iterate over digits from left to right and try to remove maximum digits which is present in Stack until k become zero.
